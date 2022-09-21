@@ -31,6 +31,8 @@ public class RedissonConfig {
         return Redisson.create(config);
 
 
+
+
         //主从
        /* Config config = new Config();
         config.useMasterSlaveServers()
